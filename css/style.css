@@ -1,26 +1,50 @@
-*{
-    box-sizing: border-box;
+
+
+:root {
+
+    background-image: url(../img/floatingMattHead.PNG);
+    background-position: 100% 100%;
+    background-repeat: space repeat; 
+    background-size: cover;
+
 }
+
+.topnav {
+    color: rgba(250, 29, 0, 0.452);
+    text-decoration: none;  
+    transform-origin: 0 0;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f0ff23;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+  .topnav a:hover {
+    background-color: rgba(250, 0, 96, 0.411);
+    color: rgba(255, 0, 0, 0.356);
+  }
 
 header {
     background-image: url(../img/floatingMattHead.PNG);
     background-color: #535353;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
  
 .showtime {
-
-
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     background-attachment: unset;
-
-
 }
 
 .subtitle {
-
     font-size: 2em;
     text-decoration-style: cornsilk double;
     color: rgb(82, 0, 0);
@@ -29,33 +53,18 @@ header {
 }
 
 .nottime {
-
-    background-color: rgba(250, 176, 116, 0.116);
+    background-color: wheat;
     text-align: center;
     font-weight: 800;
-    width:65%;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    padding-left: 5em ;
-    padding-right: 8em ; 
+    width:85%;
 }
-
 
 .listsonlists {
     font-style: italic;
     background-color: rgb(255, 255, 255);
     text-align: center;
     margin: cover;
-    width: 100%;
-
-}
-
-.origin:hover {
-    transform-origin: 0 0;
-    transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%);
-
-
-
+    width: fill;
 }
 
 h1 {
@@ -63,7 +72,6 @@ h1 {
     color: rgb(0, 0, 0);
     outline-color: plum;
     padding-top: 1em;
-    
 }
 
 a { 
@@ -75,15 +83,11 @@ a {
 a:hover {
     background-color: rgb(67, 0, 250);
     color: white;
-    transition: background-color 1s;
-    transform-origin: 0 0;
-    transform: translate(-100%, 50%) rotate(45deg) translate(100%, -50%);
   }
-
 
 h2 {
     background: hsla(54, 100%, 85%, 0.253);
-    background-size: cover;
+    background-size: contain;
     width: 99%;
     margin: 50%, 25%;
     text-align: center;
@@ -94,11 +98,9 @@ p {
     width: cover;
     margin: 0 auto;
     mix-blend-mode: multiply;  
-
 }
 
 section ul {
-
     background: hsla(315, 43%, 70%, 0.444);
     width: cover;
     text-align: center;
@@ -109,7 +111,6 @@ section ul {
 
 
 section ul li:before {
-
     background: hsla(315, 43%, 70%, 0.444);
     width: cover;
     text-align: center;
@@ -118,42 +119,39 @@ section ul li:before {
 }
 
 li{
-
     width: max-content;
     margin: auto ;
 }
 
 body{
-
     background-color: rgba(255, 0, 0, 0.315);
-    margin: 0 auto;
+    margin: 1px auto;
     padding: 3em auto;
     width: cover;
     text-align: center;
 }
 
 .center{ 
-   
-    margin: cover;
+    margin: 10px 50px 20px;;
     background:hsla(315, 43%, 70%, 0.444);
-    width: 99%;
+    width: fit-content;
     text-align: center; 
-
 }
-
-
-
-
-
- 
 
 footer {
-
-    background: rgba(208, 147, 248, 0.801);
+    background: rgba(255, 153, 0, 0.801);
     width: fit-content;
     text-align: center;
-    color: rgb(36, 5, 44);
+    color: rgb(0, 12, 22);
     margin: 1em auto;
     padding: 1.5em;
+    font-size: 18px;
 }
 
+.bringithome{
+    background-color: rgba(255, 255, 255, 0.418) ;
+   
+    background-position: center;
+    background-size: fill;
+    
+}
